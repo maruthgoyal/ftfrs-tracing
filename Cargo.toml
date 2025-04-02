@@ -1,6 +1,13 @@
 [package]
-name = "ftfrs-subscriber"
+name = "ftfrs-tracing"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ftfrs = "0.1.1"
+tracing = "0.1.41"
+tracing-core = "0.1.33"
+tracing-subscriber = "0.3.19"
+
+[[example]]
+name = "run"
