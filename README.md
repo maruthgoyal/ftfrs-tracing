@@ -4,6 +4,9 @@ A Rust [tracing](https://crates.io/crates/tracing) Layer implementation for the 
 
 This library provides a bridge between Rust's tracing ecosystem and Fuchsia's trace format, allowing you to emit trace data from Rust applications that can be visualized and analyzed using Fuchsia's trace tooling.
 
+> ⚠️ **WARNING** ⚠️  
+> This is prototype, in-development software. The API may change significantly between versions and some features are not yet fully implemented. Use in production environments is not recommended at this time.
+
 ## Features
 
 - **Efficient String and Thread Interning**: Automatically interns string and thread references using StringRef::Ref and ThreadRef::Ref for improved performance.
